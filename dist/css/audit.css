@@ -1,0 +1,58 @@
+/* >>>>>>>>header effect */
+body {
+    margin: 0;
+    padding: 0;
+}
+header>div{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+header>div>*{
+    position: fixed;
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+header img{
+    width: 40em;
+    transition: transform 0.5s ease; 
+}
+header>div>div:last-child{
+    margin-left: 55%;
+    font-size: x-large;
+}
+main{
+    margin-top: 5em;
+    background:linear-gradient(to bottom,#ffffff,#F6F1F1);
+}
+.scroll-right{
+    transform: translateX(-100%); 
+}
+/* >>>>>>>> header effect */
+main>section:first-child{
+    margin-inline: 20%;
+    font-size: larger;
+}
+.imgs>div:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+}
+.imgs>div:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imgs>div>div{
+    margin:1em;
+}
+main>section:last-child>div{
+    font-size: larger;
+    padding: 2%;
+    color: #F6F1F1;
+    background: linear-gradient(to right, #211C6A, #59B4C3, #211C6A);
+}
+main>section:last-child>div>*{
+    border-left: 3px solid #F6F1F1;
+    padding-left: 1em;
+}

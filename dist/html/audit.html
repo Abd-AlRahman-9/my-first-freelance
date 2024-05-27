@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/audit.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <img id="img" src="../../assets/Imgs/audit-head.jpg" alt="">
+            </div>
+            <div>
+                <h1>CUSTOMIZED AUDIT</h1>
+                <p>Managing risk today means putting in place effective controls along the value chain. Customers today hold companies responsible for social and environmental performance throughout their supply chains, making supplier risk assessment a priority. But companies also need to ensure their own manufacturing sites, retail outlets and distribution networks are up to scratch. The aim: to maintain high standards from production to point of sale, and in doing so, protect reputation.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="imgs">
+                <div>
+                    <div>
+                        <img src="../../assets/Imgs/first-of-four-audit.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2>
+                            SUPPLIER AUDITS
+                        </h2>
+                        <p>
+                            Bureau Veritas offers audits to a wide range of industry standards as well as customized supplier audits. We have distilled our years of expertise into a compliance checklist which can be tailored to the specific needs of your business.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="../../assets/Imgs/second-of-four-audit.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2>
+                            RETAIL  AUDITS
+                        </h2>
+                        <p>
+                            Your brand is a valuable asset. Bureau Veritas helps protect brand image by achieving conformity throughout owned, managed and franchised networks by conducting retail audits. 
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="../../assets/Imgs/third-of-four-audit.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2>
+                            CLIENT OPERATIONS AUDITS
+                        </h2>
+                        <p>
+                            Companies need to make sure the quality, safety and compliance standards they set are applied across their business. Bureau Veritas acts as your eyes and ears on the ground with client operations audits.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="../../assets/Imgs/fourth-of-four-audit.png" alt="">
+                    </div>
+                    <div>
+                        <p>
+                            Large corporations and SMEs deal with increasing public scrutiny regarding their sustainability policies. Beyond financial performance and ability to innovate, companies are now measured on their positive impact on people and the planet. Bureau Veritas created Clarity to help decision makers manage the implementation of organizations’ sustainability roadmaps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>WHAT DOES AUDIT MEAN?</h2>
+                <p>The definition of an audit is an on-site inspection of a process or management system to evaluate its compliance with a given standard. The certification process includes a series of audits carried out by an accredited independent certification body. Click here to learn more about the certification process.</p>
+            </div>
+        </section>
+    </main>
+    <script src="dist/js/aos.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            var img = document.getElementById('img');
+            if (window.pageYOffset > 0) { 
+                img.classList.add('scroll-right'); 
+            } 
+            else {
+                img.classList.remove('scroll-right'); 
+            }
+        });
+        AOS.init();
+    </script>
+</body>
+</html>

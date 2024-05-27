@@ -1,0 +1,148 @@
+/* >>>>>>>>header effect */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header>div{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+header>div>*{
+    position: fixed;
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+header img{
+    width: 40em;
+    transition: transform 0.5s ease; 
+}
+header>div>div:last-child{
+    margin-left: 55%;
+    font-size: xx-large;
+}
+main{
+    margin-top: 5em;
+    background: linear-gradient(to bottom,#ffffff,#F6F1F1);
+}
+.scroll-right{
+    transform: translateX(-100%); 
+}
+/* >>>>>>>> header effect */
+
+/* >>>>>>>>  main <<<<<<<<<<<<< */
+/* *********** section 1*/
+main>section:first-child{
+    margin-inline: 20%;
+    font-size: larger;
+}
+.imgs>div:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+}
+.imgs>div:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imgs>div>div{
+    margin:1em;
+}
+.nums{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nums>div{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    padding-left: 1px;
+    border-left: dashed 2px #211C6A;
+    transition: all 0.2s linear;
+}
+.nums>div:hover{
+    border-left: solid 5px #211C6A;
+}
+.nums>div:first-child{
+    height: 75%;
+}
+.nums>div:last-child{
+    height: 90%;
+}
+.nums>div>*{
+    margin: 0;
+    margin-left: 0.2em;
+}
+.nums+div{
+    padding: 1em;
+    transition: all 0.2s linear;
+    border-radius: 1em;
+}
+.nums+div:hover{
+    background:linear-gradient(to bottom,#ffffff,#F6F1F1);
+}
+.document-buttons>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 0.5em;
+}
+.document-buttons>div>div{
+    width: 40%;
+}
+.document-buttons button{
+    letter-spacing: 1px;
+    color: #211C6A;
+    font-weight:700;
+    background: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+.document-buttons button:hover{
+    padding: 0;
+    padding-bottom: 3px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #211C6A;
+}
+i{
+    margin-left: 2px;
+}
+/* *********** section 1*/
+/* *********** section 2*/
+main>section:last-child>div:first-child{
+    font-size: larger;
+    padding: 2%;
+    color: #F6F1F1;
+    background: linear-gradient(to right, #211C6A, #59B4C3, #211C6A);
+}
+.last-div{
+    position: relative;
+}
+.last-div>div:last-child{
+    font-size: x-large;
+    position: absolute;
+    left: 2%;
+    top:3em;
+    z-index: 1;
+    color: #ffffff; 
+
+}
+.last-div img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    filter: contrast(120%) brightness(90%);
+}
+.last-div button{
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight:800;
+    background: none;
+    border-bottom: none;
+    transition: all 0.5s ease;
+}
+/* *********** section 2*/
+/* >>>>>>>>  main <<<<<<<<<<<<< */
